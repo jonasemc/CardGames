@@ -1,0 +1,44 @@
+.card_container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 330px;
+  width: 300px;
+  border: solid 1px #cccccc;
+}
+.card_container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_avatar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 25px;
+}
+
+.card_avatar img {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.card_name {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.card_genre {
+  text-transform: capitalize;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
