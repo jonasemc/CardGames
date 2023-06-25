@@ -9,6 +9,10 @@ function Card(props: GameTypes) {
       </div>
       <div className="card_container-info">
         <span className="card_name">{props.title}</span>
+        <span className="card_short_description">
+          {props.short_description}
+        </span>
+        <span className="card_genre_title">Gênero</span>
         <span className="card_genre">{props.genre}</span>
       </div>
     </div>

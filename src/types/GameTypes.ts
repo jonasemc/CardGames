@@ -3,4 +3,5 @@ export interface GameTypes {
   thumbnail?: string;
   genre?: string;
   id?: string;
+  short_description?: string;
 }
